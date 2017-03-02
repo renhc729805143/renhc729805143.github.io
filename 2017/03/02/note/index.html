@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>renpen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="前端Javascript高级第3天
+
+
+课程内容课程笔记函数一等公民
+函数 有双重身份，即可以当做函数来调用，可以当做对象来访问属性或调用方法
+
+通过使用的方式来确定身份
+如果直接在函数名后加 一对圆括号，此时就是函数身份
+如果在函数名后有. | [] ，此时身份为对象，即函数访问属性或调用方法
+
+
+函数可以作为另一个函数的实参
+
+回调函数
+
+
+函数可以嵌套使用
+
+函数 可以作为另一个函数返回值">
+<meta property="og:type" content="article">
+<meta property="og:title" content="renpen">
+<meta property="og:url" content="http://yoursite.com/2017/03/02/note/index.html">
+<meta property="og:site_name" content="renpen">
+<meta property="og:description" content="前端Javascript高级第3天
+
+
+课程内容课程笔记函数一等公民
+函数 有双重身份，即可以当做函数来调用，可以当做对象来访问属性或调用方法
+
+通过使用的方式来确定身份
+如果直接在函数名后加 一对圆括号，此时就是函数身份
+如果在函数名后有. | [] ，此时身份为对象，即函数访问属性或调用方法
+
+
+函数可以作为另一个函数的实参
+
+回调函数
+
+
+函数可以嵌套使用
+
+函数 可以作为另一个函数返回值">
+<meta property="og:updated_time" content="2017-03-01T03:47:51.042Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="renpen">
+<meta name="twitter:description" content="前端Javascript高级第3天
+
+
+课程内容课程笔记函数一等公民
+函数 有双重身份，即可以当做函数来调用，可以当做对象来访问属性或调用方法
+
+通过使用的方式来确定身份
+如果直接在函数名后加 一对圆括号，此时就是函数身份
+如果在函数名后有. | [] ，此时身份为对象，即函数访问属性或调用方法
+
+
+函数可以作为另一个函数的实参
+
+回调函数
+
+
+函数可以嵌套使用
+
+函数 可以作为另一个函数返回值">
+  
+    <link rel="alternate" href="/atom.xml" title="renpen" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">renpen</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-note" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/02/note/" class="article-date">
+  <time datetime="2017-03-02T05:10:43.422Z" itemprop="datePublished">2017-03-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p></p><p style="border-bottom:1px solid #ccc;font-size:2.5em;font-weight:bold;">前端Javascript高级第3天</p><p></p>
+<hr>
+
+<h1 id="课程内容"><a href="#课程内容" class="headerlink" title="课程内容"></a>课程内容</h1><h2 id="课程笔记"><a href="#课程笔记" class="headerlink" title="课程笔记"></a>课程笔记</h2><h3 id="函数一等公民"><a href="#函数一等公民" class="headerlink" title="函数一等公民"></a>函数一等公民</h3><ol>
+<li><p>函数 有双重身份，即可以当做函数来调用，可以当做对象来访问属性或调用方法</p>
+<ul>
+<li>通过使用的方式来确定身份</li>
+<li>如果直接在函数名后加 一对圆括号，此时就是函数身份</li>
+<li>如果在函数名后有. | [] ，此时身份为对象，即函数访问属性或调用方法</li>
+</ul>
+</li>
+<li><p>函数可以作为另一个函数的实参</p>
+<ul>
+<li>回调函数</li>
+</ul>
+</li>
+<li><p>函数可以嵌套使用</p>
+</li>
+<li><p>函数 可以作为另一个函数返回值 </p>
+<ul>
+<li>闭包</li>
+</ul>
+</li>
+<li><p>函数可以限定作用域</p>
+</li>
+</ol>
+<h3 id="函数相关属性"><a href="#函数相关属性" class="headerlink" title="函数相关属性"></a>函数相关属性</h3><ol>
+<li><p>arguments </p>
+<ul>
+<li>伪数组对象</li>
+<li>已数组形式 来存储函数在执行时所传入的所有实参</li>
+<li>callee 返回正在被执行函数; 匿名函数的递归调用</li>
+<li>length 实参个数</li>
+</ul>
+</li>
+<li><p>caller: 返回调用函数的 函数</p>
+</li>
+<li><p>length: 定义形参的个数</p>
+</li>
+<li><p>name: 存储函数的名字</p>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/02/note/" data-id="cizrxod120000dsr1rvlj29vr" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/03/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/03/02/note/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/02/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 renHC<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
